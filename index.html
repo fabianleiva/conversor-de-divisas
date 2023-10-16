@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <main>
+        <h1>Conversor de Divisas</h1>
+        <div id="inputArea">
+          <h6>Pesos Chilenos:</h6>
+          <input
+            type="number"
+            placeholder="Ingrese monto en CLP"
+            id="dataInput"
+          />
+        </div>
+        <div id="currenciesOptions">
+          <h6>Moneda a convertir:</h6>
+          <select id="currenciesSelect">
+            <option disabled selected>Seleccione una divisa</option>
+          </select>
+        </div>
+        <div>
+          <button id="convertButton">Convertir</button>
+        </div>
+        <div id="convertedResult"></div>
+      </main>
+      <section id="graphSection">
+        <canvas id="myChart"></canvas>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

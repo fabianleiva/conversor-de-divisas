@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: Mulish, sans;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #262523;
+}
+
+body {
+  background-color: #fafafa;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: initial;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d0d0d0;
+  border-radius: 5rem;
+  padding: 2rem 4rem 2rem 4rem;
+  box-shadow: 5px 5px 10px #888888;
+  width: 35rem;
+  height: 35rem;
+}
+
+main {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+main div {
+  margin-bottom: 15px;
+}
+
+#dataInput {
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#currenciesSelect {
+  height: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#dataInput::placeholder {
+  color: #262523;
+}
+
+#convertButton {
+  height: 1.5rem;
+  width: 6rem;
+  border-radius: 1rem;
+  border: solid 1px #262523;
+  cursor: pointer;
+}
+
+#result {
+  color: red;
+}
+
+#graphSection {
+  width: 100%;
+}
+
+#myChart {
+  width: 100%;
+}
